@@ -1,38 +1,37 @@
-<main class="main bg-black">
+<main class="main">
   
   <div class="flex flex-col h-screen bg-gray-100">
   
-  <header class="bg-white border-b p-4 flex justify-between items-center font-bold">
-    <span>Restaurante 01</span>
-    <span>Jean Pool Arias</span>
-    <button class="text-red-500">Salir</button>
-  </header>
-
+  <app-nav-bar></app-nav-bar>
   <div class="flex flex-1 overflow-hidden">
     
-    <aside class="w-1/5 bg-white border-r p-4 flex flex-col gap-2">
+    <aside class="w-1/5 bg-white p-4 flex flex-col gap-2 border-2 border-gray-200 rounded-lg m-2">
       <h2 class="font-bold border-b pb-2 mb-2">Categoría</h2>
       <button class="p-2 hover:bg-blue-100 text-left rounded">Buscar</button>
       <button class="p-2 hover:bg-blue-100 text-left rounded">Fondo</button>
       <button class="p-2 hover:bg-blue-100 text-left rounded">Entradas</button>
       <button class="p-2 hover:bg-blue-100 text-left rounded">Bebidas</button>
       <button class="p-2 hover:bg-blue-100 text-left rounded">Postres</button>
-      </aside>
+    </aside>
 
-    <main class="w-3/5 p-4 overflow-y-auto">
+    <main class="w-3/5 p-4 bg-white border-2 border-gray-200 rounded-lg m-2">
       <h2 class="font-bold mb-4 text-center">Productos</h2>
-      <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
-        <div class="bg-white p-4 rounded-lg shadow flex flex-col items-center">
-          <span class="font-semibold text-lg">Sopa de Mote</span>
-          <span class="text-green-600 font-bold">S/ 15.00</span>
-          <button class="mt-2 bg-blue-600 text-white px-4 py-1 rounded hover:bg-blue-700">
-            Agregar
-          </button>
-        </div>
+      <div class="flex flex-row flex-wrap justify-center gap-4">
+        <app-product-cart></app-product-cart>
+        <app-product-cart></app-product-cart>
+        <app-product-cart></app-product-cart>
+        <app-product-cart></app-product-cart>
+        <app-product-cart></app-product-cart>
+        <app-product-cart></app-product-cart>
+        <app-product-cart></app-product-cart>
+        <app-product-cart></app-product-cart>
+        <app-product-cart></app-product-cart>
+        <app-product-cart></app-product-cart>
+        <app-product-cart></app-product-cart>
       </div>
     </main>
 
-    <section class="w-1/5 bg-white border-l p-4 flex flex-col">
+    <section class="w-1/5 bg-white p-4 flex flex-col border-2 border-gray-200 rounded-lg m-2">
       <h2 class="font-bold border-b pb-2 mb-4 text-center">Comanda</h2>
       <div class="flex-1 overflow-y-auto">
         <div class="flex justify-between items-center mb-2">
@@ -46,7 +45,6 @@
         <button class="w-full bg-green-500 text-white py-2 rounded mt-2">Pedir</button>
       </div>
     </section>
-
   </div>
 </div>
 </main>
