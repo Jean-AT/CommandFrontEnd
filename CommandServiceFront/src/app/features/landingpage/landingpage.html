@@ -1,40 +1,117 @@
 <main class="flex flex-col p-0 m-0 bg-gray-100">
-    <section class="flex flex-1 items-center p-9 m-0 bg-white">
+    <section class="flex flex-1 items-center p-6 m-0 bg-white">
         <div class="commandText flex flex-1 items-center justify-center">
-            <h3 class="text-xl font-medium">Command</h3>
-            <h3 class="text-blue-400 text-xl font-medium">Service</h3>
+            <h3 class="text-3xl font-medium">Command</h3>
+            <h3 class="text-blue-400 text-3xl font-medium">Service</h3>
         </div>
         <div class="textbar flex flex-1 items-center justify-center gap-13">
             <span class="font-medium">Caracteristicas</span>
             <span class="font-medium">Precios</span>
             <span class="font-medium">Contacto</span>
-            <button class="font-medium">Iniciar sesion</button>
+            <button class="p-3 bg-blue-500 rounded-lg text-white hover:cursor-pointer hover:bg-gray-100 hover:text-black transition-all duration-500 ease-in-out">Iniciar sesion</button>
         </div>
     </section>
-    <section class="m-0 p-76 bg-[url('../../../assets/backgroundMoso.png')] bg-cover bg-center">
+    <section class="m-0 p-77 bg-[url('/assets/backgroundMoso.png')] bg-cover bg-center">
         <div class="flex flex-col items-center justify-center">
-            <img src="../../../assets/backgroundMoso.png" alt="">
-            <h3 class="text-5xl font-medium p-2">Gestiona tu restaurante con solo un comando</h3>
-            <p class="text-2xl p-2">Optimizar pedidos, mesa y cocina en tiempo real</p>
+            <h3 class="text-5xl text-white p-2">Gestiona tu restaurante con solo un comando</h3>
+            <p class="text-2xl text-white p-2">Optimizar pedidos, mesa y cocina en tiempo real</p>
             <div class="py-9 gap-10 flex">
                 <button class="p-3 bg-blue-500 rounded-lg text-white hover:cursor-pointer hover:bg-white hover:text-blue-900 transition-all duration-500 ease-in-out">Prueba Gratis por 30 Días</button>
                 <button class="p-3 bg-white text-blue-900 rounded-lg hover:cursor-pointer hover:bg-blue-500 hover:text-white transition-all duration-500 ease-in-out">Ver Demo</button>
             </div>
         </div>
     </section>
-    <section>
-        <div>
-
-        </div>
-        <div>
-            <div>
-                <div></div>
-                <div></div>
+    <section class="p-40 gap-6 pt-10 pb-10">
+        <div class="flex flex-col gap-4 pb-7">
+            <p class="text-2xl font-medium">Caracteristicas</p>
+            <div class="flex flex-1 justify-center gap-9">
+                <div class="flex flex-col bg-white rounded-lg justify-center items-center gap-2 p-8 w-300 h-70 shadow-sm hove:shadow-2xl transition-all duration-200 ease-in-out hover:shadow-blue-200">
+                    <img src="/assets/Mobile.svg" class="w-30" alt="">
+                    <span>Pedidos Digitales</span>
+                    <span class="text-gray-500">Toma la orden desde cualquier dispositivo</span>
+                </div>
+                <div class="flex flex-col bg-white rounded-lg items-center gap-2 p-8 w-300 justify-center h-70 shadow-sm hove:shadow-2xl transition-all duration-200 ease-in-out hover:shadow-blue-200">
+                    <img src="/assets/chef.png" class="w-30" alt="">
+                    <span>Control de Cocina</span>
+                    <span class="text-gray-500">Aumenta el flujo reduce los errores</span>
+                </div>
+                <div class="flex flex-col bg-white rounded-lg items-center gap-2 p-8 w-300 justify-center h-70 shadow-sm hove:shadow-2xl transition-all duration-200 ease-in-out hover:shadow-blue-200">
+                    <img src="/assets/finance.png" class="w-30" alt="">
+                    <span>Gestion Inteligente</span>
+                    <span class="text-gray-500">Accede a reportes y finanzas</span>
+                </div>
             </div>
-            <div>
-
+        </div>
+        <div class="flex flex-1 gap-2 justify-between">
+            <div class="flex flex-col gap-4 w-200">
+                <div>
+                    <p class="text-2xl font-medium pb-14">Testimonios</p>
+                    <div class="flex flex-1 gap-5 justify-evenly pb-6">
+                        <div class="items-center flex flex-col gap-3 text-center">
+                            <img src="/assets/PersonaOne.jpeg" class="w-35 rounded-full border-2 border-blue-500" alt="">
+                            <span>"Gran herramienta, Me hizo reducir tiempo de espera"</span>
+                        </div>
+                        <div class="items-center flex flex-col gap-3 text-center">
+                            <img src="/assets/PersonaTwo.jpeg" class="w-35 rounded-full border-2 border-blue-500" alt="">
+                            <span>"Increible servicio, Redujo los errores de comunicacion"</span>
+                        </div>
+                        <div class="items-center flex flex-col gap-3 text-center">
+                            <img src="/assets/PersonaThree.jpeg" class="w-35 rounded-full border-2 border-blue-500" alt="">
+                            <span>"Recomendado, Puedo avisar a mis mosos de el stock de platos y mas cosas"</span>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p class="text-2xl font-medium pb-7">Precios</p>
+                    <div class="flex flex-1 gap-6 justify-evenly">
+                        <div class="flex flex-col gap-2 p-7 w-150 bg-white  justify-center rounded-lg shadow-sm hove:shadow-2xl transition-all duration-200 ease-in-out hover:shadow-blue-200">
+                            <span class="text-center mb-2">Plan Basico</span>
+                            <span>✅ 1 Mes de Prueba</span>
+                            <span>✅ Hasta 5 Dispositivos en simultaneo</span>
+                            <span>✅ Convertir balance a exel</span>
+                        </div>
+                        <div class="flex flex-col gap-2 p-7 w-150 bg-white justify-center rounded-lg shadow-sm hove:shadow-2xl transition-all duration-200 ease-in-out hover:shadow-blue-200">
+                            <span class="text-center mb-2">Plan Premiun</span>
+                            <span>✅ Promocion por Meses</span>
+                            <span>✅ Hasta 15 Dispositivos en simultaneo</span>
+                            <span>✅ Ver Graficos detallados</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-150 bg-white rounded-lg mx-40">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15741.716076370434!2d-77.01844241824772!3d-12.07936333222353!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c62cff865915%3A0xac7583613e6cc89f!2sVilla%20Deportiva%20Nacional!5e0!3m2!1ses-419!2spe!4v1770391042110!5m2!1ses-419!2spe" width="550" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="pt-1 mt-0">
+                    <form class="rounded-lg flex flex-col p-2">
+                        <div class="mb-2 flex flex-col">
+                            <span class="font-medium">Nombre:</span>
+                            <input type="name" class="bg-white p-1 border border-white rounded-lg hover:border-blue-300 focus:border-blue-300 focus:outline-none transition-all duration-500 ease-in-out" id="name-form" name="name" placeholder="Name" required>
+                        </div>
+                        <div class="mb-2 flex flex-col">
+                            <span class="font-medium">Correo Electronico:</span>
+                            <input type="email" class="bg-white p-1 border border-white rounded-lg hover:border-blue-300 focus:border-blue-300 focus:outline-none transition-all duration-500 ease-in-out" id="email-form" name="email" placeholder="example@" required>
+                        </div>
+                        <div class="mb-2 flex flex-col">
+                            <span class="font-medium">Mensaje:</span>
+                            <input type="messaje" class="bg-white p-1 border border-white rounded-lg hover:border-blue-300 focus:border-blue-300 focus:outline-none transition-all duration-500 ease-in-out"  id="messaje-form" name="messaje" placeholder="Messaje">
+                        </div>
+                        <button type="button" id="contact-btn-action" class="bg-blue-500 p-2 rounded-lg m-2 text-white font-medium hover:cursor-pointer hover:bg-blue-600 transition-all duration-500 ease-in-out">
+                            Enviar
+                        </button>
+                    </form>
+                </div>
             </div>
         </div>
     </section>
-    <footer></footer>
+    <footer class="flex flex-1 items-center p-6 m-0 bg-blue-900">
+        <div class="commandText flex flex-1 items-center justify-center">
+            <h3 class="text-3xl text-white font-medium">Command</h3>
+            <h3 class="text-white text-3xl font-medium">Service</h3>
+        </div>
+        <div class="textbar flex flex-1 items-center justify-center gap-13">
+            <span class="font-medium">Privacidad</span>
+            <span class="font-medium">Terminos</span>
+            <button class="p-3 bg-blue-500 rounded-lg text-white hover:cursor-pointer hover:bg-gray-100 hover:text-black transition-all duration-500 ease-in-out">Iniciar sesion</button>
+        </div>
+    </footer>
 </main>
